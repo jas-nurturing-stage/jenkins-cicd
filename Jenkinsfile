@@ -1,5 +1,5 @@
 @Library('Shared') _
-def config = securityConfig("securelooper/flask-cicd:${BUILD_NUMBER}",'flask-cicd-container')
+def config = securityConfig("docjas143/flask-cicd:${BUILD_NUMBER}",'flask-cicd-container')
 
 pipeline {
     agent any
