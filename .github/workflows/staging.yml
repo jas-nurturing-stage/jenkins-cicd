@@ -140,5 +140,4 @@ jobs:
 
                 echo "🚀 Running new container"
                 docker run -d --name python-cicd-container -p 80:5000 $IMAGE_URI
-
     
